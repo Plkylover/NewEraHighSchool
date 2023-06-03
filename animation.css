@@ -1,0 +1,148 @@
+#preloader{
+  height: 100vh;
+  width: 100%;
+  background-color: #1E6EC7;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(/imgs/loading-animations-preloader-gifs-ui-ux-effects-4.gif);
+  background-size: 40%;
+}
+
+.animation span{
+  font-family: 'Anton', sans-serif;
+  font-size: 1.2em;
+}
+body{
+  overflow: hidden;
+}
+.animation{
+  width: 100%;
+  height: 15vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.animate1{ 
+  opacity: 0;
+  transition: opacity 0.5s, transform 0.5s; 
+  transform: translateX(-100%);
+}
+.animate2{ 
+  opacity: 0;
+  transition: opacity 0.5s, transform 0.5s; 
+  transform: translateX(-100%);
+}
+.animate3{
+  opacity: 0;
+  transition: opacity 0.5s, transform 0.5s;
+  transform: translateX(-100%);
+}
+.animate4{
+  opacity: 0;
+  transition: opacity 0.5s, transform 0.5s;
+  transform: translateX(-100%);
+}
+.visible1{ 
+  opacity: 1; 
+  transform: translateX(-2vw);
+  }
+.visible2{ 
+  opacity: 1; 
+  transform: translateX(-1vw);
+  }
+.visible3{
+    opacity: 1;
+    transform: translateX(0vw);
+  }
+  .visible4 {
+    opacity: 1;
+    transform: translateX(1vw);
+  }
+#w1{
+  transform: translateX(-2vw);
+  color:  #4285F4
+}
+#e1{
+  transform: translateX(-2vw);
+  color: #EA4335;
+}
+#l{
+  transform: translateX(-2vw);
+  color: #FBBC05;
+}
+#c{
+  transform: translateX(-2vw);
+  color: #34A853;
+}
+
+#o1{
+  transform: translateX(-2vw);
+  color:  #4285F4;
+}
+#m{
+  transform: translateX(-2vw);
+  color: #EA4335;
+}
+#e2{
+  transform: translateX(-2vw);
+  color: #FBBC05;
+}
+#t1{
+  transform: translateX(-1vw);
+  color: #34A853;
+}
+#o2{
+  transform: translateX(-1vw);
+  color:  #4285F4;
+}
+#t2{
+  transform: translateX(0vw);
+  color: #EA4335;
+}
+#h{
+  transform: translateX(0vw);
+  color: #FBBC05;
+}
+#i1{
+  transform: translateX(0vw);
+  color: #34A853;
+}
+#s1{
+  transform: translateX(0vw);
+  color:  #4285F4;
+}
+#w2{
+  transform: translateX(1vw);
+  color: #EA4335;
+}
+#e3{
+  transform: translateX(1vw);
+  color: #FBBC05;
+}
+#b{
+  transform: translateX(1vw);
+  color: #34A853;
+}
+#s2{
+  transform: translateX(1vw);
+  color:  #4285F4
+}
+#i2{
+  transform: translateX(1vw);
+  color: #EA4335;
+}
+#t3{
+  transform: translateX(1vw);
+  color: #FBBC05;
+}
+#e4{
+  transform: translateX(1vw);
+  color: #34A853;
+}
+@media only screen and (min-width: 850px){
+  .animation span{
+    font-size: 2.3em;
+  }
+}
