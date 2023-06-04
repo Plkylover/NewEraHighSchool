@@ -1,3 +1,4 @@
+document.designMode="on"
 const spans1 = document.getElementsByClassName("animate1");
 const spans2 = document.getElementsByClassName("animate2");
 const spans3 = document.getElementsByClassName("animate3");
